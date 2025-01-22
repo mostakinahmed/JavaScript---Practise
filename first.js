@@ -93,22 +93,47 @@
 // x.splice(3,1,909090);
 // console.log(x);
 
+// let x = prompt("Enter a number: ");
+// let i,j,y,flag=0; 
+// if(x==0 || x==1){
+//     flag=1;
+// }
+// for(i=2;i<x;i++){
+//     if(x%i==0){
+//         flag=1;
+//         break;
+//     }
+
+// }
+
+// if(flag==1){
+//     console.log("Not a prime number");
+// }
+// else{
+//     console.log("Prime number");
+// }
+
+
 let x = prompt("Enter a number: ");
 let i,j,y,flag=0; 
-if(x==0 || x==1){
-    flag=1;
-}
-for(i=2;i<x;i++){
-    if(x%i==0){
-        flag=1;
-        break;
+
+
+
+for(i=2;i<=x;i++){
+
+    for(j=0;j<i;j++){
+
+        console.log(i);
+        console.log(j);
+        // if(i%j==0){
+        //    console.log("Not a prime number");
+        // }
+        // else{
+        //     console.log("Prime number");
+        // }
+
+    
     }
-
 }
 
-if(flag==1){
-    console.log("Not a prime number");
-}
-else{
-    console.log("Prime number");
-}
+
