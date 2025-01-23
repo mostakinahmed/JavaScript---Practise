@@ -33,6 +33,9 @@
 
 
 
+// const x=5;
+// console.log(x);
+
 // let i;
 // for(i=1;i<=50;i++){
 //     if(i%5==0)
@@ -114,26 +117,34 @@
 // }
 
 
-let x = prompt("Enter a number: ");
-let i,j,y,flag=0; 
+// let x = prompt("Enter a number: ");
+// let i,j,y,flag=0; 
 
 
 
-for(i=2;i<=x;i++){
+// for(i=2;i<=x;i++){
 
-    for(j=0;j<i;j++){
+//     for(j=0;j<i;j++){
 
-        console.log(i);
-        console.log(j);
-        // if(i%j==0){
-        //    console.log("Not a prime number");
-        // }
-        // else{
-        //     console.log("Prime number");
-        // }
+//         console.log(i);
+//         console.log(j);
+//         // if(i%j==0){
+//         //    console.log("Not a prime number");
+//         // }
+//         // else{
+//         //     console.log("Prime number");
+//         // }
 
     
-    }
-}
+//     }
+// }
 
 
+// let x=10,i=5,j;
+
+// if(x%i==0){
+//     console.log("Yes");
+// }
+// else{
+//     console.log("No");
+// }
